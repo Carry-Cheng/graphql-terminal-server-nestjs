@@ -1,0 +1,11 @@
+
+type CustomModuleVO {
+    # secret key
+    a: String!
+    # get config ciphertext
+    b: String!
+}
+
+type Query {
+    custom: CustomModuleVO
+}
